@@ -1,0 +1,45 @@
+.box {
+    border: 2px solid #fff;
+    border-radius: 5px; 
+    background: url(https://leskin.com.vn/html/destop/img/bg-sg.jpg);
+    background-position: top center;
+
+    width: 40%;
+    height: 500px;
+    justify-content: center;
+   
+}
+
+.form1{
+    width:500px;
+    height: 70px;
+    flex-direction: column;
+    margin-left: 140px;
+}
+input{
+    width: 60%;height: 30px;
+}
+button{
+    margin-top:20px;
+    width: 310px;
+    height: 30px;
+    background-color: chocolate;
+    margin-left: 140px;
+}
+.pull-right {
+    margin-top: 40px;
+    margin-left:240px;
+}
+img{
+    margin-left: 230px;
+
+}
+.close{
+    background-color:antiquewhite;
+    width: 30px;
+    height:height15px;
+    margin-left:570px;
+}
+a{
+    font-size: none;
+}

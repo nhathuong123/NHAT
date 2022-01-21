@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dangky.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Dang ky</title>
+</head>
+<body>
+    <button type="button" class="close" data-dismiss="modal"><a href="leskin.html">X</a></button>
+    <div class="box">
+        <br class="btn-login">
+        <img src="https://leskin.com.vn/Uploads/images/logo.png" alt="Logo">
+        <div class="form1">
+                <input type="hidden" name="returnUrl" value="">
+                <label for="" class="phone">
+                    <input type="text" name="UserName" placeholder="Điện thoại">
+                </label>
+                  
+        </div>
+        <div class='form1'>
+            <label for="" class="pass">
+                <input type="password" name="Password" placeholder="Password">
+            </label>
+            
+        </div>
+        <button type="button" id="btnLogin">Đăng ký</button>
+    
+      
+    </div>
+    <script>
+        $(document).ready(function(){
+                $('#btnLogin').click(function(){
+                alert('Đăng ký thành công')
+                });
+        })
+        </script>
+</body>
+</html>
